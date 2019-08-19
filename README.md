@@ -1,5 +1,8 @@
 # AutoHotkey Gui Class Version 2
 Create AutoHotkey gui objects
+## File Types
+The .aclass file is the same as the .ahk file, which can be used as
+an #Include; helps me separate main files from imports
 
 ## Example Code - getControls() - ShowCase
 ### Get a control information object 
