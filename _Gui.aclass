@@ -81,12 +81,12 @@ tab2|tab3|statusbar|activex|custom
                 ,   %   content  
         }
     }
-    Show(params){
+    Show(params := ""){
         Gui ,   %   this.sub this.subFunc(A_ThisFunc)
             ,   %   this.toString(params)
             ,   %   this.title
     }
-    Submit(params){
+    Submit(params := ""){
         Gui ,   %   this.sub this.subFunc(A_ThisFunc)
             ,   %   this.toString(params)
     }
