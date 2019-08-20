@@ -90,9 +90,13 @@ tab2|tab3|statusbar|activex|custom
         Gui ,   %   this.sub this.subFunc(A_ThisFunc)
             ,   %   this.toString(params)
     }
-    Margin(x := "",y := ""){
-        this.marginX := ((x+0)?x:this.marginX?this.marginX:8)
-        this.marginY := ((y+0)?y:this.marginY?this.marginY:8)
+    Margin(x := 0,y := 0){
+		if x is integer
+			xint := true
+		if y is integer
+			yint := true
+        this.marginX := xint?x:8
+		this.marginY := yint?y:8
         Gui ,   %   this.sub this.subFunc(A_ThisFunc)
             ,   %   this.marginX
             ,   %   this.marginY
