@@ -143,6 +143,14 @@ tab2|tab3|statusbar|activex|custom
     Destroy(){
         Gui,% this.sub this.subFunc(A_ThisFunc)
     }
+    Button(x,y,w,h,txt,hwnd,pParams := "",tParams := ""){
+        this.Add(   "Progress",100,"x" x " y"
+                .   y " w" w " h" h " Hwnd" hwnd " " pParams)
+        this.Add(   "Text",txt
+                ,   "xp yp +0x200 +Center"
+                .   " +BackgroundTrans w"
+                .   w " h" h " " tParams)
+    }
     subFunc(func){
         n := StrSplit(func,".")
         return n[n.MaxIndex()]
