@@ -4,7 +4,7 @@ Create AutoHotkey gui objects
 
 ## Example
 
-You can find an example/tutorial script in the [Example Folder](./example/) found at the root of this repository. 
+You can find an example/tutorial script in the [Example Folder](./example/) found at the root of this repository &amp; there's an archive of the example here [Compressed Example](./example/class_example.zip). 
 
 This is mean for intermediate to advanced skill level users. In order to use this class you should probaly alread be experienced with the AutoHotkey language &amp; especially experienced with guis. Understanding how guis work in AutoHotkey will help you understand how to use this class &amp; also all the things that can be done with this class.
 
