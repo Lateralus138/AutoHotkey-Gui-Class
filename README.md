@@ -9,7 +9,7 @@ You can find an example/tutorial script in the [Example Folder](./example/) foun
 This is mean for intermediate to advanced skill level users. In order to use this class you should probaly alread be experienced with the AutoHotkey language &amp; especially experienced with guis. Understanding how guis work in AutoHotkey will help you understand how to use this class &amp; also all the things that can be done with this class.
 
 You can find a video preview of the example/tutorial here:
-[AutoHotkey _Gui Class Example Preview](./example/preview)
+[AutoHotkey _Gui Class Example Preview](https://lateralus138.github.io/AutoHotkey_Gui_Class_Preview/)
 
 ## File Types
 
