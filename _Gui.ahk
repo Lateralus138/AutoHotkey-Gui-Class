@@ -143,13 +143,13 @@ tab2|tab3|statusbar|activex|custom
     Destroy(){
         Gui,% this.sub this.subFunc(A_ThisFunc)
     }
-    Button(x,y,w,h,txt,hwnd,pParams := "",tParams := ""){
+    Button(x,y,w,h,txt,pHwnd,tHwnd,pParams := "",tParams := ""){
         this.Add(   "Progress",100,"x" x " y"
-                .   y " w" w " h" h " Hwnd" hwnd " " pParams)
+                .   y " w" w " h" h " Hwnd" pHwnd " " pParams)
         this.Add(   "Text",txt
                 ,   "xp yp +0x200 +Center"
                 .   " +BackgroundTrans w"
-                .   w " h" h " " tParams)
+                .   w " h" h " Hwnd" tHwnd " " tParams)
     }
     subFunc(func){
         n := StrSplit(func,".")
@@ -199,8 +199,8 @@ tab2|tab3|statusbar|activex|custom
                     GuiControlGet,visible,% this.sub "Visible",%A_LoopField%
                     GuiControlGet,hwnd,% this.sub "Hwnd",%A_LoopField%
                     GuiControlGet,name,% this.sub "Name",%A_LoopField%
-                    this.controls.focus := focus ;
-                    this.controls.focusv := focusv ;
+                    this.controls[A_LoopField]["focus"] := focus ;
+                    this.controls[A_LoopField]["focusv"] := focusv ;
                     this.controls[A_LoopField]["content"] := content ;
                     this.controls[A_LoopField]["pos"]   :=  {   "x":posX
                                                             ,   "y":posY
