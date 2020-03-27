@@ -11,6 +11,11 @@ This is mean for intermediate to advanced skill level users. In order to use thi
 You can find a video preview of the example/tutorial here:
 [AutoHotkey _Gui Class Example Preview](https://lateralus138.github.io/AutoHotkey_Gui_Class_Preview/)
 
+## Recent bug fixes
+
+- Fixed bug in getControls() method that didn't correctly get the 'focus' &amp; 'focusv' attributes of a control.
+- Added the need to provided a Text Hwnd variable name for the custom _Gui.Button() method along with it's relative Progress Hwnd variable name. 
+
 ## File Types
 
 The .aclass file is the same as the .ahk file, which can be used as
