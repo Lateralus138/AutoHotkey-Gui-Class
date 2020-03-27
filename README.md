@@ -1,12 +1,15 @@
 # AutoHotkey Gui Class Version 2
+
 Create AutoHotkey gui objects
+
 ## File Types
+
 The .aclass file is the same as the .ahk file, which can be used as
 an #Include; helps me separate main files from imports
 
 ## Example Code - getControls() - ShowCase
 ### Get a control information object 
-```
+```AutoHotkey
     getControls(){
         if (this.getId()) {
             WinGet,_ctrlList,ControlList,% "ahk_id " this.id
@@ -25,8 +28,8 @@ an #Include; helps me separate main files from imports
                     GuiControlGet,visible,% this.sub "Visible",%A_LoopField%
                     GuiControlGet,hwnd,% this.sub "Hwnd",%A_LoopField%
                     GuiControlGet,name,% this.sub "Name",%A_LoopField%
-                    this.controls.focus := focus ;
-                    this.controls.focusv := focusv ;
+                    this.controls[A_LoopField]["focus"] := focus ;
+                    this.controls[A_LoopField]["focusv"] := focusv ;
                     this.controls[A_LoopField]["content"] := content ;
                     this.controls[A_LoopField]["pos"]   :=  {   "x":posX
                                                             ,   "y":posY
