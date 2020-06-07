@@ -85,6 +85,7 @@ tab2|tab3|statusbar|activex|custom
         Gui ,   %   this.sub this.subFunc(A_ThisFunc)
             ,   %   this.toString(params)
             ,   %   this.title
+        return this.getId()
     }
     Submit(params := ""){
         Gui ,   %   this.sub this.subFunc(A_ThisFunc)
