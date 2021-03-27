@@ -23,7 +23,7 @@ jobs:
           for index in "${!files[@]}"; do
             cp -rf "${files[index]}" "$project_dir" || exit 9
           done
-          zip -r "project_dir" "./${project_dir}/"
+          zip -r "$project_dir" "./${project_dir}/"
       - name: Create Release
         uses: ncipollo/release-action@v1
         with:
