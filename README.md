@@ -2,6 +2,30 @@
 
 Create AutoHotkey gui objects
 
+<sub>This `README` is:</sub>
+
+![Under Construction](https://img.shields.io/static/v1?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACmElEQVQokUWSa0iTcRTGn//26u4b6ZQ0U8lKMqykwPpgZVBEHyLp8jEoIZJADCQ0iCiStIwuZmHRioIuroQss2VkrkIrdeFckiZqdhctTXPOve8Tr7M6X8/zO+fwPEfIwy7IwQA0GgExGYQwyhCmMLRX1z2hJCJSN+xZgqAZnPgCaAUQ0EHICjSYLlKBCDdNQb7HLmeRoy3zQFnzYk/1WTckGUIXCVD+Kw+BpAxtuBXCpkN7bdXt/JL3W3J3xuHg3iTsL/NkNFWVPoWkQOj/wxooCrRhFgiTjI4n9ZVHHQObjxVEY8UGIi1zEhVFCahwdq5qvn+hHkKC0EcBigxwvAnkW3ge7L6TMi+VztOLOOKOY8ulKL68GM2emnjeLF3AZSlz2FCZ6yaHwLGv6pkv8MyxsUoHLcsLwBuHwE0rtdy2UuLWNTpmpkkszQEfnAPDAd47tbaB7NaJR+eXujfmtGTUXgFWp5uwPd8Oi1GBJEmwWYlP34L4PSFw7chPeD+MYnkWUVmy0CeNfe5N8ANIjNWpNmHzqklYrDIGRwRm2gXsM/xofRMOf1AgcbYOAfgxMvgxCmS9+dbh5A6VarxuIMdBDoJ0g+vSreytNpAEux7qqWrK82I+kC2xYOAzyFbz5QNJPrXhdRo4XK/n3WILkxPsbKqwsr8xBB3PjukhGyJJv+qqB+QvkN0mR2Fim5pU1hobzxTYOPbcyJoTNpoAlu6wdZKvIslR0O9VXe0Clc5p2Ge4WDh36ux3ThM/1RqnNhXvilU32cjvINtAf4cKdkzlSHpBTqgNY11JfLtFA+o14NU8Wx/piggNfg2yGVR8EF9/dP37PyCIoDQLs8z9hmv71nsC4wFz9klX2tD4/AEG+gBoQ7KghD8MZ2xdnt7s7wAAAABJRU5ErkJggg==&label=Under&message=Construction&color=yellow&labelColor=1d1d1d&style=for-the-badge)
+
+<mark>**COMING SOON**</mark>
+
+I will be adding more case examples as well as links to projects built with this.
+
+There might not be any changes to this code base; not to say I write perfect code, but if there's a better way to refactor/optimize this class then I don't know how to do it and welcome anyone to fork this and do so, but this is perfect for everything I do with GUI's in *AutoHotkey* and the way it works is quite clever if I do say so myself (and I do, of course :p).
+
+The way this class works, even if there isn't a method to do everything under the sun with GUI's, it can still tie in with any normal method allowing you to just plug this framework into existing projects creating hybrids (framework/normal AHK GUI code).
+
+Also, I plan to create a archived release of this with no artifacts for easy download accessibility and stat creation for this project.
+
+- [AutoHotkey Gui Class Version 2](#autohotkey-gui-class-version-2)
+  - [Example](#example)
+  - [Recent bug fixes](#recent-bug-fixes)
+  - [File Types](#file-types)
+  - [Example Code getControls() ShowCase](#example-code-getcontrols-showcase)
+    - [Get a control information object](#get-a-control-information-object)
+  - [Motivation](#motivation)
+  - [License](#license)
+  - [Project Information](#project-information)
+
 ## Example
 
 You can find an example/tutorial script in the [Example Folder](./example/) found at the root of this repository &amp; there's an archive of the example here [Compressed Example](./example/class_example.zip). 
@@ -21,7 +45,8 @@ You can find a video preview of the example/tutorial here:
 The .aclass file is the same as the .ahk file, which can be used as
 an #Include; helps me separate main files from imports
 
-## Example Code - getControls() - ShowCase
+## Example Code getControls() ShowCase
+
 ### Get a control information object 
 ```AutoHotkey
     getControls(){
@@ -59,14 +84,12 @@ an #Include; helps me separate main files from imports
         }
     }
 ```
+
 ## Motivation
+
 I like to "objectify" things for various reasons and
 I really wanted a way to compartmentalize different gui
 windows
-
-## Contributors
-
-Ian Pride @ faithnomoread@yahoo.com - [Lateralus138] @ New Pride Services 
 
 ## License
 
@@ -82,3 +105,8 @@ Ian Pride @ faithnomoread@yahoo.com - [Lateralus138] @ New Pride Services
 
 	License provided in the License folder on the source page
 
+## Project Information
+
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Lateralus138&repo=AutoHotkey-Gui-Class)
+
+<!-- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Lateralus138&repo=AutoHotkey-Gui-Class&show_icons=true&theme=radical) -->
