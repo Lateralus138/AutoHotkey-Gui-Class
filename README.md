@@ -25,6 +25,7 @@ Also, I plan to create a archived release of this with no artifacts for easy dow
   - [Motivation](#motivation)
   - [License](#license)
   - [Project Information](#project-information)
+    - [Latest Version Status](#latest-version-status)
 
 ## Example
 
@@ -109,4 +110,17 @@ windows
 
 ![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=Lateralus138&repo=AutoHotkey-Gui-Class)
 
-<!-- ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Lateralus138&repo=AutoHotkey-Gui-Class&show_icons=true&theme=radical) -->
+|Description|Status|
+|:---:|:---:|
+|Project Release Date|![GitHub Release Date](https://img.shields.io/github/release-date/Lateralus138/AutoHotkey-Gui-Class?style=for-the-badge)|
+|Total downloads for this project|![GitHub all releases](https://img.shields.io/github/downloads/Lateralus138/AutoHotkey-Gui-Class/total?style=for-the-badge)|
+|Complete repository size|![This Repo Size](https://img.shields.io/github/repo-size/Lateralus138/AutoHotkey-Gui-Class?style=for-the-badge)|
+|Commits in last month|![GitHub commit activity](https://img.shields.io/github/commit-activity/m/Lateralus138/AutoHotkey-Gui-Class?style=for-the-badge)|
+|Commits in last year|![GitHub commit activity](https://img.shields.io/github/commit-activity/y/Lateralus138/AutoHotkey-Gui-Class?style=for-the-badge)|
+
+### Latest Version Status
+
+|Description|Status|Number of Downloads|
+|:---:|:---:|:---:|
+|Latest Release version|![Release Version](https://img.shields.io/github/v/release/Lateralus138/AutoHotkey-Gui-Class?style=for-the-badge)|![GitHub release (latest by date)](https://img.shields.io/github/downloads/Lateralus138/AutoHotkey-Gui-Class/1.0.0/total?style=for-the-badge)|
+|Latest Tag version, possible Pre-Release's|![Tag Version](https://img.shields.io/github/v/tag/Lateralus138/AutoHotkey-Gui-Class?style=for-the-badge)|![GitHub release (latest by date)](https://img.shields.io/github/downloads/Lateralus138/AutoHotkey-Gui-Class/1.0.0/total?style=for-the-badge)|
