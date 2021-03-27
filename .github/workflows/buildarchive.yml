@@ -1,0 +1,38 @@
+name: Check, Build, and Release Archive
+on:
+  push:
+    branches: [ master ]
+jobs:
+  check-build-and-release-archive:
+    name: Check, Build, and Release Archive
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Check, Build, and Release Archive
+        run: |
+          apt install zip -y
+          which zip || exit 1
+          files=( "./_Gui.aclass" "./_Gui.ahk" "./example/_gui_class_example.ahk" "./example/test_gui.ico" "./example/test_gui.png" "./example/AutoHotkey_Gui_Class_Example_Tutorial_Preview.mp4" )
+          project_dir="ahk_gui_class_example"
+          for index in "${!files[@]}"; do
+            [[ -s "${files[index]}" ]] || exit $((index+2))
+          done
+          if ! [[ -d "./$project_dir" ]]; then
+            mkdir "$project_dir" || exit 8
+          fi
+          for index in "${!files[@]}"; do
+            cp -rf "${files[index]}" "$project_dir" || exit 9
+          done
+          zip -r "project_dir" "./${project_dir}/"
+      - name: Create Release
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: True
+          tag: 1.0.0
+          name: Stable Release
+          prerelease: False
+          artifacts: "ahk_gui_class_example.zip"
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Built Project Package
