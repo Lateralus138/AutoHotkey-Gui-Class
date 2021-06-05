@@ -14,7 +14,7 @@ There might not be any changes to this code base; not to say I write perfect cod
 
 The way this class works, even if there isn't a method to do everything under the sun with GUI's, it can still tie in with any normal method allowing you to just plug this framework into existing projects creating hybrids (framework/normal AHK GUI code).
 
-Also, I plan to create a archived release of this with no artifacts for easy download accessibility and stat creation for this project.
+Also, I plan to create an archived release of this with no artifacts for easy download accessibility and stat creation for this project.
 
 - [AutoHotkey Gui Class Version 2](#autohotkey-gui-class-version-2)
   - [Example](#example)
@@ -31,7 +31,7 @@ Also, I plan to create a archived release of this with no artifacts for easy dow
 
 You can find an example/tutorial script in the [Example Folder](./example/) found at the root of this repository &amp; there's an archive of the example here [Compressed Example](./example/class_example.zip). 
 
-This is mean for intermediate to advanced skill level users. In order to use this class you should probaly alread be experienced with the AutoHotkey language &amp; especially experienced with guis. Understanding how guis work in AutoHotkey will help you understand how to use this class &amp; also all the things that can be done with this class.
+This is meant for intermediate to advanced skill level users. In order to use this class you should probably already be experienced with the AutoHotkey language &amp; especially experienced with guis. Understanding how guis work in AutoHotkey will help you understand how to use this class &amp; also all the things that can be done with this class.
 
 You can find a video preview of the example/tutorial here:
 [AutoHotkey _Gui Class Example Preview](https://lateralus138.github.io/AutoHotkey_Gui_Class_Preview/)

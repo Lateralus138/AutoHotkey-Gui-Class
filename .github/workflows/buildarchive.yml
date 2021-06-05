@@ -1,7 +1,9 @@
 name: Check, Build, and Release Archive
 on:
   push:
-    branches: [ master ]
+    paths:
+    - '**.ahk'
+    - '**.aclass'
 jobs:
   check-build-and-release-archive:
     name: Check, Build, and Release Archive
